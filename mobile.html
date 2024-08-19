@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mobile</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./nav.css">
+    <style>
+       .btn a{
+        color:white;
+        text-decoration: none;
+      }
+      .btn{
+            box-shadow: 1px 3px 5px #5543f3;  
+        }
+    </style>
+  </head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" class="image-responsive" alt="d" height="60px" width="150px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="nav-item col-5 ps-6 pe-2">
+        <form class="form-inline my-2 my-lg-0">
+        <input class="form-control form-control-lg col-4"  type="search" id="input" placeholder="search your products ,brands more">
+        
+        </form>
+      </div>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="nav justify-content-end">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg" height="20px" width="30px">Account
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="myprofile.html"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg"height="20px" width="20px" alt="d" class="img-fluid"> My Profile</a></li>
+                <li><a class="dropdown-item" href="#"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/supercoin-ce8408.svg" height="10px" width="10px"> Supercoins </a></li>
+                <li><a class="dropdown-item" href="#"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkplus-4ff29a.svg"height="10px" width="10px"> Flipkart plus zone</a></li>
+                <li><a class="dropdown-item" href="order.html"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/orders-bfe8c4.svg"height="10px" width="10px"> Orders</a></li>
+                <li><a class="dropdown-item" href="cart.html"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDIwLjI0OUMxMiAyMC4yNDkgMi42MjUgMTQuOTk5IDIuNjI1IDguNjI0MDNDMi42MjUgNy40OTcwNSAzLjAxNTQ2IDYuNDA0ODggMy43Mjk5NiA1LjUzMzM0QzQuNDQ0NDUgNC42NjE3OSA1LjQzODg0IDQuMDY0NzIgNi41NDM5MyAzLjg0MzdDNy42NDkwMyAzLjYyMjY4IDguNzk2NTcgMy43OTEzNyA5Ljc5MTMxIDQuMzIxMDZDMTAuNzg2MSA0Ljg1MDc2IDExLjU2NjUgNS43MDg3NCAxMiA2Ljc0OTAzVjYuNzQ5MDNDMTIuNDMzNSA1LjcwODc0IDEzLjIxMzkgNC44NTA3NiAxNC4yMDg3IDQuMzIxMDZDMTUuMjAzNCAzLjc5MTM3IDE2LjM1MSAzLjYyMjY4IDE3LjQ1NjEgMy44NDM3QzE4LjU2MTIgNC4wNjQ3MiAxOS41NTU1IDQuNjYxNzkgMjAuMjcgNS41MzMzNEMyMC45ODQ1IDYuNDA0ODggMjEuMzc1IDcuNDk3MDUgMjEuMzc1IDguNjI0MDNDMjEuMzc1IDE0Ljk5OSAxMiAyMC4yNDkgMTIgMjAuMjQ5WiIgc3Ryb2tlPSIjMjEyMTIxIiBzdHJva2Utd2lkdGg9IjEuNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="height="20px" width="20px"> Wishlist</a></li>
+                <li><a class="dropdown-item" href="cart.html"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/coupons-083172.svg" height="10px" width="10px"> coupons </a></li>
+                <li><a class="dropdown-item" href="#"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/giftCard-bd87e1.svg"height="10px" width="10px"> Gift cards</a></li>
+                <li><a class="dropdown-item" href="cart.html"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logout-e63ddf.svg"height="10px" width="10px"> Logout</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg" height="20px"width="30px">Cart</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg" height="20px"width="30px"> Become a Seller</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg" height="20px" width="30px">
+                
+            </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  <li><a class="dropdown-item" href="myprofile.html"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/notificationPreferences-cfffaf.svg" height="10px" width="20px">Notification preferences</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/helpcenter-7d90c0.svg" height="10px" width="20px">24x7 customer care" </a></li>
+                  <li><a class="dropdown-item" href="#"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-298691.svg" height="10px" width="20px">Advertise</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/downloadApp-2ea657.svg" height="10px" width="20px">Download app</a></li>
+                </ul>
+            </li>
+             
+        
+          </ul>
+         
+        </div>
+      </div>
+    </nav>
+      </div></div></nav>
+        
+        
+    
+    
+<hr><br><br><br>
+<div class="container-fluid bg-white m-1 p-1" >
+<div class="row">
+   <nav class="navbar navbar-expand-lg">
+      <div class="container justify-content-end">
+         <div class="collapse navbar-collapse" id="mynavbar"> 
+            <ul class="navbar nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" aria-current="page" href="mobile.html"><img src="https://rukminim1.flixcart.com/fk-p-flap/64/64/image/44e10b16e649b691.jpg?q=100" height="64px"width="64px" class=""><br>Mobile</a>
+                  </li>
+                <li class="nav-item">
+                   <a class="nav-link dropdown-toggle" aria-current="page" href="grocery.html"><img src="https://rukminim1.flixcart.com/fk-p-flap/64/64/image/25f400c36bc3487d.jpg?q=100" height="64px" width="64px"><br>Grocery</a>
+               </li>
+                <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="fashion.html" id="mydrop" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="https://rukminim1.flixcart.com/fk-p-flap/64/64/image/9d4e9c605fc1d2d3.jpg?q=100" height="64px" width="64px"><br>Fashion</a>
+                      <ul class="dropdown-menu" aria-labelledby="mydrop">
+                         <li>
+                            <a class="dropdown-item" href="fashion.html">Mens Top wear</a>
+                        </li>
+                        <li>
+                             <a class="dropdown-item" href="fashion.html">Mens Bottom wear </a></li>
+                        <li>
+                            <a class="dropdown-item" href="fashion.html">Women ethnic</a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="fashion.html">Mens Footwear</a>
+                        </li>
+           
+               </li>
+            </ul>
+    
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"  href="electronics.html" id="mydrop1" role="button" data-bs-toggle="dropdown" aria-expanded="false" ><img src="https://rukminim1.flixcart.com/fk-p-flap/64/64/image/4da1d0d19350cc84.jpg?q=100" height="64px"width="64px"><br>Electronics</a>
+        <ul class="dropdown-menu" aria-labelledby="mydrop1">
+            <li><a class="dropdown-item" href="#">Gaming</a></li>
+            <li><a class="dropdown-item" href="#">laptop accesories </a></li>
+            <li><a class="dropdown-item" href="#">mobile accesories</a></li>
+            <li><a class="dropdown-item" href="#">powerbank</a></li>
+        </ul>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#"id="mydrop2" role="button" data-bs-toggle="dropdown" aria-expanded="false" ><img src="https://rukminim1.flixcart.com/fk-p-flap/64/64/image/5b813b64a3179898.jpg?q=100" height="64px"width="64px"><br>Home</a>
+        <ul class="dropdown-menu" aria-labelledby="mydrop2">
+            <li><a class="dropdown-item" href="#">Living Room furniture</a></li>
+            <li><a class="dropdown-item" href="#">Kitchen & Dining </a></li>
+            <li><a class="dropdown-item" href="#">Bedroom furniture</a></li>
+            <li><a class="dropdown-item" href="#">Home decor</a></li>
+        </ul>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="#"><img src="https://rukminim1.flixcart.com/fk-p-flap/64/64/image/717b5077a5e25324.jpg?q=100" height="64px"width="64px"><br>Appliances</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="#"><img src="https://rukminim1.flixcart.com/fk-p-flap/64/64/image/57fe1ffe54569c41.jpg?q=100" height="64px"width="64px"><br>Travels</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="#"><img src="https://rukminim1.flixcart.com/fk-p-flap/64/64/image/a5e656672d0548dd.jpg?q=100" height="64px"width="64px"><br>Beauty,Toys</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="#"><img src="https://rukminim1.flixcart.com/fk-p-flap/64/64/image/698ba0cebe456aaf.jpg?q=100" height="64px"width="64px"><br>Top offers</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="#"><img src="https://rukminim1.flixcart.com/fk-p-flap/64/64/image/7a5e96c10ada8a56.jpg?q=100" height="64px"width="64px"><br>furniture</a>
+    </li>
+    
+    </ul>
+</div>
+</div></div></div></nav><br>
+
+<div class="banner ms-1">
+    <img src="https://img.freepik.com/premium-vector/product-advertising-hero-image-header-layout_1302-21013.jpg" height="310px"width="650px" alt="banner" class="image-responsive"><img src="https://img.freepik.com/premium-psd/horizontal-website-banne_451189-115.jpg" height="310px" width="660px" alt="ban"class="image-responsive">
+</div><br>
+<div class="container-fluid">
+    <center><h1>SALE OF THE DAY</h1></center>
+<div class="row">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/844/140/image/cc3432e2c00496ea.jpg?q=50" alt="mob" class="img-thumbnail d-block w-100">
+</div>
+</div>
+<div class="container-fluid">
+        <div class="row">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/844/140/image/6aa63b34e312895a.jpg?q=50" alt="m" class="img-thumbnail d-block w-100">
+        </div>
+    </div>
+        </div><br><br>
+<div class="container-fluid">
+         <center><h1>JUST LAUNCHED</h1></center>
+         <img src="https://rukminim2.flixcart.com/fk-p-flap/844/140/image/aa9db65f6bbbff68.jpg?q=50" alt="i" class="img-thumbnail d-block w-100">
+</div><br><br>
+<div class="container-fluid bg-white text-center">
+    <h4>Motorola smartphones</h4><br>
+<div class="row">
+    <div class="col-sm-2">
+        <div class="card">
+        <img src="./images/z1.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+            <div class="card-text">
+                <p style="font-size: 15px;">MOTOROLA g2 power<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+                 <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+        </div>
+       </div>
+      </div>
+    </div>
+   <div class="col-sm-2">
+     <div class="card">
+      <img src="./images/z2.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+          <div class="card-text">
+            <p style="font-size: 15px;">MOTOROLA g2 power<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+            <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/z3.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">MOTOROLA g2 power<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/z4.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">MOTOROLA g2 power<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+              <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/z5.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">MOTOROLA g2 power<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+           <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/z6.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">MOTOROLA g2 power<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+               <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<div class="container-fluid bg-white text-center">
+    <h4 style="background-color: white;">Poco smartphones</h4><br>
+<div class="row">
+    <div class="col-sm-2">
+        <div class="card">
+        <img src="./images/n1.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+            <div class="card-text">
+                <p style="font-size: 15px;">POCO F6 5G<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+                 <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+        </div>
+       </div>
+      </div>
+    </div>
+   <div class="col-sm-2">
+     <div class="card">
+      <img src="./images/n2.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+          <div class="card-text">
+            <p style="font-size: 15px;">POCO F6 5G<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+            <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/n3.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">POCO F6 5G<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+            <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/n4.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">POCO F6 5G<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/n5.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">POCO F6 5G<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+              <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/n6.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">POCO F6 5G<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<div class="container-fluid bg-white text-center">
+    <h4 style="background-color: white;">VIVO smartphones</h4><br>
+<div class="row">
+    <div class="col-sm-2">
+        <div class="card">
+        <img src="./images/n1.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+            <div class="card-text">
+                <p style="font-size: 15px;">Vivo F6 5G<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+                <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+        </div>
+       </div>
+      </div>
+    </div>
+   <div class="col-sm-2">
+     <div class="card">
+      <img src="./images/n2.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+          <div class="card-text">
+            <p style="font-size: 15px;">Vivo F6 5G<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+              <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/n3.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">Vivo F6 5G<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+            <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/n4.webp" height="250px"width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">Vivo F6 5G<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Addto cart</a> </button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/n5.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">Vivo F6 5G<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/n6.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">Vivo F6 5G<br>(Glacier blue)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<div class="container-fluid bg-white text-center">
+    <h4 style="background-color: white;">Realme smartphones</h4><br>
+<div class="row">
+    <div class="col-sm-2">
+        <div class="card">
+        <img src="./images/p1.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+            <div class="card-text">
+                <p style="font-size: 15px;">Realme c51<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+           <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+        </div> 
+       </div>
+      </div>
+    </div>
+   <div class="col-sm-2">
+     <div class="card">
+      <img src="./images/p2.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+          <div class="card-text">
+            <p style="font-size: 15px;">Realme c51<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+            <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p3.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">Realme c51<br>(mint green)<br>><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+            <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p4.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">Realme c51<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p5.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">Realme c51<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+              <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p6.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">Realme c51<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+              <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<div class="container-fluid bg-white text-center">
+    <h4 style="background-color: white;">Apple smartphones</h4><br>
+<div class="row">
+    <div class="col-sm-2">
+        <div class="card">
+        <img src="./images/p1.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+            <div class="card-text">
+                <p style="font-size: 15px;">Apple iphone 15<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+                 <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+        </div>
+       </div>
+      </div>
+    </div>
+   <div class="col-sm-2">
+     <div class="card">
+      <img src="./images/p2.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+          <div class="card-text">
+            <p style="font-size: 15px;">Apple iphone 15<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+              <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p3.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">Apple iphone 15<br>(mint green)<br>><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p4.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">Apple iphone 15<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+           <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p5.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">Apple iphone 15<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+              <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div> 
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p6.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">Apple iphone 15<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+              <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<div class="container-fluid bg-white text-center">
+    <h4 style="background-color: white;">Infinix smartphones</h4><br>
+<div class="row">
+    <div class="col-sm-2">
+        <div class="card">
+        <img src="./images/p1.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+            <div class="card-text">
+                <p style="font-size: 15px;">infinix smart40<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+                <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+        </div>
+       </div>
+      </div>
+    </div>
+   <div class="col-sm-2">
+     <div class="card">
+      <img src="./images/p2.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+          <div class="card-text">
+            <p style="font-size: 15px;">Samsung galaxy M51<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p3.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">Samsung galaxy M51<br>(mint green)<br>><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+            <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p4.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">Samsung galaxy M51<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+              <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p5.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">Samsung galaxy M51<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+              <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p6.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">Samsung galaxy M51<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<div class="container-fluid bg-white text-center">
+    <h4 style="background-color: white;">Samsung smartphones</h4><br>
+<div class="row">
+    <div class="col-sm-2">
+        <div class="card">
+        <img src="./images/p1.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+            <div class="card-text">
+                <p style="font-size: 15px;">Samsung galaxy M51<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+                  <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+        </div>
+       </div>
+      </div>
+    </div>
+   <div class="col-sm-2">
+     <div class="card">
+      <img src="./images/p2.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+          <div class="card-text">
+            <p style="font-size: 15px;">Samsung galaxy M51<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+              <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p3.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">Samsung galaxy M51<br>(mint green)<br>><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+              <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p4.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">Samsung galaxy M51<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+              <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p5.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">Samsung galaxy M51<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p6.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">Samsung galaxy M51<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<div class="container-fluid bg-white text-center">
+    <h4 style="background-color: white;">Oppo smartphones</h4><br>
+<div class="row">
+    <div class="col-sm-2">
+        <div class="card">
+        <img src="./images/p1.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+            <div class="card-text">
+                <p style="font-size: 15px;">oppo A5<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+                 <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+        </div> 
+       </div>
+      </div>
+    </div>
+   <div class="col-sm-2">
+     <div class="card">
+      <img src="./images/p2.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+          <div class="card-text">
+            <p style="font-size: 15px;">oppo A5<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p3.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">oppo A5<br>(mint green)<br>><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p4.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">oppo A5<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p5.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">oppo A5<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p6.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">oppo A5<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+               <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<div class="container-fluid bg-white text-center">
+    <h4 style="background-color: white;">Google smartphones</h4><br>
+<div class="row">
+    <div class="col-sm-2">
+        <div class="card">
+        <img src="./images/p1.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+            <div class="card-text">
+                <p style="font-size: 15px;">Google pixel 8<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+               <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+        </div>
+       </div>
+      </div>
+    </div>
+   <div class="col-sm-2">
+     <div class="card">
+      <img src="./images/p2.webp" height="250px" width="200px" class="card-img-top">
+        <div class="card-body">
+          <div class="card-text">
+            <p style="font-size: 15px;">Google pixel 8<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+            <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p3.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">Google pixel 8<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p4.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+            <p style="font-size: 15px;">Google pixel 8<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+              <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p5.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">Google pixel 8<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+              <button class="btn btn-primary btn-block"><a href="cart.html">Add to cart</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-2">
+    <div class="card">
+     <img src="./images/p6.webp" height="250px" width="200px" class="card-img-top">
+       <div class="card-body">
+         <div class="card-text">
+             <p style="font-size: 15px;">Google pixel 8<br>(mint green)<br><span style="background-color: rgba(98, 182, 41, 0.986);color:white;"><b>4.2*</b></span>(10181)<br><b>$7999</b><del>$10999</del></p>
+             <button class="btn btn-primary btn-block">Add to cart</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><br><br>
+<div class="container-fluid bg-dark mt-2 pt-2" id="footer">
+  <div class="row">
+      <div class="col-sm-3">
+          <h4 style="font-size: 16px;color:white;">Online shopping</h4><br>
+              <p><a href="mobile.html">Mobile</a></p>
+              <p><a href="electronics.html">Electronics</a></p>
+              <p><a href="fashion.html">Fashion</a></p>
+              <p><a href="grocery.html">Grocery</a></p>
+              <p><a href="myprofile.html">Profile</a></p>
+              <p><a href="order.html">orders</a></p>
+              <p><a href="cart.html">cart</a></p>
+      </div>
+      <div class="col-sm-3">
+           <h4 style="font-size: 16px;color:white;">Useful Links</h4><br>
+              <p>Blog</p>
+              <p>Careers</p>
+              <p>corporate information</p>
+              <p>site map</p>
+              <p>cleartrip</p>
+              <p>whitehat</p>
+      </div>
+      <div class="col-sm-3">
+              <h4 style="font-size: 16px;color:white;">Customer policies</h4><br>
+              <p>Contact us</p>
+              <p>FAQ</p>
+              <p>T&C</p>
+              <p>Terms of use</p>
+              <p>Trackorders</p>
+              <p>Shipping</p>
+              <p>Cancellation</p>
+              <p>Return</p>
+              <p>Privacy Policy</p>
+              <p>Grievance officer</p>
+      </div>
+      <div class="col-sm-3">
+          <h4 style="font-size: 16px;color:white;">Register office address</h4>
+          <p>Buildings Alyssa,<br>Begonia and Clover situated in Embassy Tech Village<br>,Outer Ring Road,<br>Devarabeesanahalli Village,<br>Varthur Hobli,<br>Bengaluru – 560103, India</p>
+          <p>CIN: U72300KA2007PTC041799<br>Telephone: +91-80-61561999</p>
+      </div>
+</div>
+</div>
+  
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+
+
+
+    
+
+
+
+
+    
